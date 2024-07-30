@@ -463,6 +463,15 @@ color: #fff;
 .bt2:active{
 color: #fff;
 }
+.detail-contact{
+  background-color: #eae9f4; 
+  margin-top: 60px;
+}
+@media (max-width:500px){
+  .detail-contact{
+    margin-bottom: 80px;
+  }
+}
 
 .address{
   background-color: #edefeb;
@@ -482,8 +491,6 @@ color: #fff;
 .p-text{
   color: #fff;
   font-size: 22px;
- padding-left:100px;
- padding-right: 100px;
  font-family: "Lato", sans-serif;
 }
 
