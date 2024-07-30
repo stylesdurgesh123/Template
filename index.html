@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css2/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Karla:ital,wght@0,200..800;1,200..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<title>document</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+    <style>
+
+      </style>
+</head>
+<body>
+  <section>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light navigation-wrap">
+      <div class="container-fluid">
+        <a class="navbar-brand"style="margin: auto;"  href="#"><img class="logo" src="img/logo.png" alt="danopay" style="height:1.5rem;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse nv" id="navbarNav">
+            <ul class="navbar-nav ms-auto  mb-2 mb-lg-0 nvh">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#product">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" onclick="myFunction()"  href="#policies" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Policies
+                </a>
+                <ul class="dropdown-menu" style="background-color:white; border: 1px solid white; border-radius: 20px; margin-top: 20px; line-height: 5px; " aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Term&Conditions</a></li>
+                  <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
+                  <li><a class="dropdown-item" href="#">Cancellation&Refund Policy</a></li>
+                </ul>
+              </li>
+            </li>
+            </ul>
+            <li class="buttons">
+              <button class="main-btn1" style="margin-right:10px;">Login</button>
+              <button class="main-btn2 ">Sign up</button>
+                 </li>
+          </div>
+        </div>
+      </nav>
+      </section>
+
+     <section >
+        <div id="about" class="container-fluid top-banner">
+       <div class="row justify-content-center">
+      <div class="col-md-12 col-lg-9">
+        <h1  class="heading wow animate__animated animate__fadeInUp"><strong style="font-weight: bold;">Empowering Transactions,
+          Connecting Commerce: Your Gateway to Seamless Payments in India.</strong></h1>
+          <p class="para pt-4 heading wow animate__animated animate__fadeInUp">We are dynamopay, a Fintech company where seamless
+						Financial transactions meet cutting-edge technology! As a premier Payment Solution provider, we
+						take pride in offering a robust and reliable platform that empowers businesses to effortlessly
+						manage their online transactions.
+
+						we are dedicated to simplifying the complexities of online payments. Our platform is designed to
+						cater to the evolving needs of businesses, whether it is a startup, small business, or a large
+						enterprise. With a commitment to security, efficiency, and user-friendly experiences, we strive
+						to be the heartbeat of their digital payment ecosystem.
+
+						At dyna,opay we continuously strive to revolutionize the way people transact and access financial
+						services. Join us on this transformative journey and experience the future of payments with
+						dynamopay
+					</p>
+          <div class="bt mt-4">
+            <a href="#start" class="wow animate__animated animate__fadeInUp" id="btn">Strat Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center small-banner">
+				<div class="col-12 col-lg-12">
+					<img src="img/1.jpg" class="wow animate__animated animate__fadeInUp" alt="dyna,opay" title="">
+          </div>
+			</div>
+    </div>
+      </section>
+
+        <section id="product" style="background-color:#393193; background-repeat: no-repeat; background-size:cover;">
+          <div class="container">
+            <h3 class=" text-center display-3 wow animate__animated animate__fadeInUp" style="padding-top: 100px; font-family: sans-serif; font-weight: 500; color: #ffffff;"><strong>Our Products</strong></h3>  
+            <h4 class="text-center wow animate__animated animate__fadeInUp display-7" style="padding:20px 100px; color: #ffffff; font-family:'Inter Tight', sans-serif; font-weight: 400; line-height: 1.3;">We offer a comprehensive suite of products designed to empower businesses in managing online transactions seamlessly. With a focus on providing a frictionless payment experience, Our product lineup includes a user-friendly payment gateway that supports multiple payment modes, including credit/debit cards, net banking, UPI, and popular digital wallets.</h4>
+           <br>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body wow animate__animated animate__delay-1s __fadeInUp">
+                            <h2 class="card-title pt-3 wow animate__animated animate__fadeInUp"><strong>Bills and Utilities</strong>
+                            </h2>
+                            <p class="card-text wow animate__animated animate__fadeInUp">Pay bills for all your utilities seamlessly from the comfort of your home.</p>
+                           <div class="item-footer1 wow animate__animated animate__fadeInUp">
+                            <a href="#"
+                            class="card-btn" data-bs-toggle="modal"
+                            data-bs-target="#itemModal-1" >Learn More</a>
+                          </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body wow animate__animated animate__fadeInUp">
+                            <h2 class="card-title pt-3 wow animate__animated animate__fadeInUp"><strong>Travel</strong></h2>
+                            <p class="card-text wow animate__animated animate__fadeInUp">Convert your shop into a Travel Agency and provide Air-Bus and Rail Tickets. Get IRCTC certificate from Indian Railways.</p>
+                            <div class="item-footer2 wow animate__animated animate__fadeInUp">
+                            <a href="#"
+                            class="card-btn" data-bs-toggle="modal"
+                            data-bs-target="#itemModal-2">Learn More</a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body wow animate__animated animate__fadeInUp">
+                            <h2 class="card-title pt-3 wow animate__animated animate__fadeInUp"><strong>Collections</strong></h5>
+                            <p class="card-text wow animate__animated animate__fadeInUp">Collection of funds for wallet top ups and consumption of prepaid services on the merchant portal, through digital means.</p>
+                          <div class="item-footer3 wow animate__animated animate__fadeInUp">
+                            <a href="#"
+                            class="card-btn " data-bs-toggle="modal"
+                            data-bs-target="#itemModal-3">Learn More</a>
+                          </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-md-3"  style="margin-bottom: 100px;">
+                    <div class="card mb-4"> 
+                         <div class="card-body wow animate__animated animate__fadeInUp">
+                            <h2 class="card-title pt-3 wow animate__animated animate__fadeInUp"><strong>Disbursement</strong></h2>
+                            <p class="card-text wow animate__animated animate__fadeInUp">Send money to any bank account, UPI id 24x7 even on a bank holiday. Manage your beneficiaries seamlessly and automate your payouts.</p>
+                          <div class="item-footer4 wow animate__animated animate__fadeInUp">
+                            <a href="#"
+                            class="card-btn" data-bs-toggle="modal"
+                            data-bs-target="#itemModal-4">Learn More</a>
+                          </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+                  
+          <!----Modal 1 -->
+                      <div class="modal fade" id="itemModal-1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                       aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Bill payments
+                              </h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              Why choose dynamopay to make your shop a Bill Collection centre? The most
+                              robust and dependable bill collection service with more than 12 years of
+                              experience. Available on your mobile phone and computer, the PayPoint
+                              platform is also a part of the Bharat Bill Payment System, a Government of
+                              India initiative. What type of bills can you accept? You can accept almost
+                              all types of Bill Payments ranging from Postpaid mobile and Landline,
+                              Education Fees, Electricity, Loan Repayments, Water, Municipal Taxes, Gas
+                              Payment and many more. Along with bill payments you also get all mobile and
+                              DTH recharges from all operators across India. . Top Features Accept almost
+                              all utility bill payments. All mobile recharges. All DTH recharges.
+                              Real-time transaction and updates. Accept bills from customers in other
+                              cities or state. Accept bills till 11:59:50 of due date, 24*7*365. Instant
+                              digital acknowledgments. </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary"
+                                data-bs-dismiss="modal">Close</button>
+                              <button type="button" class= "btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                        <!-- Modal 2 -->
+							  <div class="modal fade" id="itemModal-2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel2">Travel
+                    </h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Air Tickets Book international and domestic airline tickets and earn a percentage of the ticket value. All top airline carriers and sectors are available. Special commission structure for bulk bookings also available.
+  
+                      Bus Tickets Book Inter-state and State, Private and Government; AC and Non-AC; book bus tickets across India and for all classes from the same terminal on one single platform.
+                      
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                    </div>
+                  </div>
+                  </div>
+                  <!--model 3-->
+                  <div class="modal fade" id="itemModal-3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                      <div class="modal-header">Collection
+                        <h5 class="modal-title" id="exampleModalLabel3">
+                      </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        With the easiest integration, completely online on boarding, feature filled checkout and best in class performance, quickly go live with dyna,opay and experience the future of payments..
+    
+                        
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                      </div>
+                    </div>
+                    </div>
+                    <!--model-4-->
+                    <div class="modal fade" id="itemModal-4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">Disbursements
+                          <h5 class="modal-title" id="exampleModalLabel4">
+                        </h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          Send money to any bank account, UPI id 24x7 even on a bank holiday. Manage your beneficiaries seamlessly and automate your payouts  
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                        </div>
+                      </div>
+                      </div>
+                    </section>   
+                      
+      <section>
+        <div class="contact-form-container">
+          <div class="contact-form" id="start">
+              <h3 class="h text-center mb-0 display-5 wow animate__animated animate__fadeInUp"  style="font-weight: 400; padding-top: 50px;"><strong>Contact Form</strong></h3>
+              <p class="mbr-section-subtitle mbr-fonts-style  mb-0 wow animate__animated animate__fadeInUp" style="margin-top: 30px; text-align: center; font-size: 18px;">Please fill the below
+                form and our executives will get in touch with you within 24 hours</p>
+              <form action="contact.php" method="post" style="margin-top: 40px;">
+                  <div class="row g-3 mb-3">
+                      <div class="col-md-6 wow animate__animated animate__fadeInUp" style="padding-top: 50px;" >
+                          <input type="text" class="form-value"  id="name" name="name" required placeholder="Name">
+                      </div>
+                      <div class="col-md-6 wow animate__animated animate__fadeInUp" style="padding-top: 40px;">
+                          <input type="email" class="form-value" id="email" name="email" required placeholder="Email">
+                      </div>
+                  </div>
+                  <div class="mb-3 wow animate__animated animate__fadeInUp" style="padding-top: 40px;">
+                      <input type="tel" class="form-value" id="phone" name="phone" required pattern="[0-9]{10}" placeholder="Phone">
+                  </div>
+                  <div class="mb-3 wow animate__animated animate__fadeInUp" style="padding-top: 40px;">
+                      <textarea class="text-control" id="message" name="message" rows="4" required placeholder="Message"></textarea>
+                  </div>
+                  <div class="text-center wow animate__animated animate__fadeInUp">
+                      <button type="submit" class="b">Send Message</button>
+                  </div>
+              </form>
+            </div>
+          </div>
+          <div class="text-center wow animate__animated animate__fadeInUp" style="margin-top: -80px;">
+            <h3>Or</h3>
+        </div>
+           <!-- Social Login Buttons -->
+       <div class="social-login-bt wow animate__animated animate__fadeInUp">
+       
+        <a href="facebook-login.php" class="bt1">
+            <i class="bi bi-facebook"><i class='bx bxl-facebook'></i></i>
+        </a>
+        <a href="google-plus-login.php" class="bt3">
+          <i class="bi bi-google-plus"><i class='bx bxl-google-plus'></i></i> 
+      </a>
+        <a href="instagram-login.php" class="bt2">
+            <i class="bi bi-instagram"><i class='bx bxl-instagram'></i></i> 
+        </a>
+        <a href="twitter-login.php" class="bt4">
+          <i class="bi bi-twitter"><i class='bx bxl-twitter'></i></i> 
+      </a>
+    </div>
+        </section>
+        
+        
+	<section class="address">
+
+
+
+
+		<div class="container" style="background-color: #edefeb;">
+			
+				<h3 class="mbr-section-title mbr-fonts-style  display-5 wow animate__animated animate__fadeInUp" style="text-align: center; font-weight: 500; padding-top: 50px;">
+					<strong>Contacts</strong>
+				</h3>
+
+			
+			<div class="row justify-content-center mt-8">
+				<div class="card col-12 col-md-12" style="background-color: #eae9f4; margin-top: 60px;">
+					<div class="card-wrapper">
+						<div class="text-wrapper">
+							<h5 class="cardTitle mbr-fonts-style mb-12 display-12 wow animate__animated animate__fadeInUp">
+								<strong>Get in touch</strong>
+							</h5>
+							<ul class="list mbr-fonts-style display-7 wow animate__animated animate__fadeInUp" style="list-style: none;">
+								<li class="mbr-text item-wrap"><span style="font-size: 1.4rem;">Phone: 
+									+91 6350122697</span><br></li>
+								<li class="mbr-text item-wrap">WhatsApp: <a href="https://wa.me/+916350122697"
+										class="text-primary"></a>+91 6350122697</li>
+								<li class="mbr-text item-wrap">Email: <a
+										href="mailto:chintan.info@dynamopay.in">info@dynamopay.in</a></li>
+								<li class="mbr-text item-wrap"><br></li>
+
+
+
+                   <address>
+								<li class="mbr-text item-wrap wow animate__animated animate__fadeInUp"><span>Dynamopay Private Limited </span><br></li>
+								<li class="mbr-text item-wrap wow animate__animated animate__fadeInUp">Tf-89, Manglam Jaipur Electronic Market,   </li>
+								<li class="mbr-text item-wrap wow animate__animated animate__fadeInUp">Riddhi Siddhi, Jaipur</li>
+								<li class="mbr-text item-wrap wow animate__animated animate__fadeInUp">PIN :302018</li>
+								<li class="mbr-text item-wrap wow animate__animated animate__fadeInUp"><span>Working hours:</span><br></li>
+								<li class="mbr-text item-wrap wow animate__animated animate__fadeInUp">9:00AM - 6:00PM</li>
+                </address>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+ 
+  <div class="container-fluid " style="background-color: #393193; min-height: 130vh;">
+    <div class="text-center">
+      <h1 class="head-text  display-3 wow animate__animated animate__fadeInUp">Experience the future of Payments</h1>
+      <p class="p-text wow animate__animated animate__fadeInUp">Stay ahead with our cutting-edge payment gateway solution. Give it a try today and step into a future filled with innovation, making your tasks easier and more enjoyable.
+      </p>
+      <div class="mbr-section-btn wow animate__animated animate__fadeInUp" style="padding-top: 100px;"> <a href="#" class="start-button  wow animate__animated animate__fadeInUp">Start Now</a>
+      </div>
+      <div style="display: flex; flex-direction: column;">
+        <a href="index2.html" class=" me-3 wow animate__animated animate__fadeInUp" style="color: #fff; font-size: 20px; text-decoration: none; padding-top: 60px;">Terms & Conditions</a>
+        <a href="#" class="me-3 wow animate__animated animate__fadeInUp" style="color: #fff; font-size: 20px; text-decoration: none; padding-top: 20px;">privacy policy</a>
+        <a href="Cancellation & Refund Policy.html" class="me-3 wow animate__animated animate__fadeInUp" style="color: #fff; font-size: 20px; padding-top: 20px;">Cancellation & Refund Policy</a>
+      </div>
+    </div>
+  </div>
+  <script>
+    new WOW().init();
+    </script>
+    <script src="js/wow.min.js"></script>
+     <script src="js/script.js"></script>              
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> 
+</body>
+</html>
