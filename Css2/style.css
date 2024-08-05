@@ -8,7 +8,10 @@
 html{
     scroll-behavior: smooth;
     }
-   /* .navigation-wrap*/ .nb{
+.navigation-wrap{
+   background-color: #FFFFFFE6; 
+}
+    .nb{
         max-width: 90%;
          height:16vh;
         background-color: #FFFFFFE6;
