@@ -132,12 +132,12 @@ html{
                   }
                   .navbar-toggler{
                       position: fixed;
-                      top: 40px;
+                      top: 30px;
                       right: 30px;
                   }
                   .logo{
                       position: fixed;
-                      top: 40px;
+                      top: 30px;
                       left: 40px;
                   }
                 }
