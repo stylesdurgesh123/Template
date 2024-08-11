@@ -13,13 +13,13 @@ html{
 }*/
     .nb{
         max-width: 100%;
-         height:16vh;
+         height:14vh;
         background-color: #FFFFFFE6;
         
         position: fixed;
         top: 9px;
-        left:15px;
-        right:15px;
+        left:9px;
+        right:9px;
      z-index: 1;
     border-radius: 100vw; 
      border-top-left-radius: 100vw;
@@ -63,7 +63,7 @@ html{
            color: #fff;
           }
          
-          .buttons{
+         /* .buttons{
       display: flex;
       align-items: center;
       text-align: center;
@@ -72,17 +72,18 @@ html{
       transition-duration: 0.4s;
       cursor: pointer;
       padding-bottom: 10px;
-          }
+          }*/
           .main-btn1{
             background-color: #393193;
             color: #FFFFFFE6;
             margin: 9.6px;
             padding: 17px 32px;
             outline: none;
+             cursor: pointer;
             border:1px solid #393193;
             border-radius: 32px;
             font-family: "Poppins", sans-serif;
-            font-weight: 700;
+            font-weight: 600;
            
           }
     
@@ -95,7 +96,7 @@ html{
             border:1px solid #393193;
             border-radius: 32px;
             font-family: "Poppins", sans-serif;
-            font-weight: 700;
+            font-weight: 600;
           }
 
           .dropdown:hover {
@@ -131,12 +132,12 @@ html{
                   }
                   .navbar-toggler{
                       position: fixed;
-                      top: 45px;
+                      top: 25px;
                       right: 30px;
                   }
                   .logo{
                       position: fixed;
-                      top: 50px;
+                      top: 30px;
                       left: 40px;
                   }
                 }
