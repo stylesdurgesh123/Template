@@ -122,7 +122,7 @@ html{
                 top:60px;
                }
                   .nv{
-              height:60vh;
+              height:50vh;
               border: 1px solid #FFFFFFE6;
               border-radius: 2rem;
               margin-top: 120px;
@@ -132,12 +132,12 @@ html{
                   }
                   .navbar-toggler{
                       position: fixed;
-                      top: 60px;
+                      top: 40px;
                       right: 30px;
                   }
                   .logo{
                       position: fixed;
-                      top: 60px;
+                      top: 40px;
                       left: 40px;
                   }
                 }
